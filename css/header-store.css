@@ -7,7 +7,7 @@
   transform: translate(-50%, -50%);
 }
 
-header {
+.header-store {
   background-color: #e24647;
   color: #ffffff;
   overflow: hidden;
