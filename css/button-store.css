@@ -1,14 +1,14 @@
-.btn {
+.button-store {
   display: inline-block;
-  padding: 16px 60px;
+  padding: 16px 40px;
   font-size: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   border: solid 2px;
-}
+  text-decoration: none;
 
-.primary {
+  /* Primary */
   color: #ffffff;
   background-color: #252c41;
   border-color: #252c41;
