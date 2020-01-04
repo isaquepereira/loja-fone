@@ -9,6 +9,7 @@
 }
 
 .productInfo {
+  float: right;
   max-width: 550px;
   color: #ffffff;
   font-size: 20px;
@@ -46,4 +47,12 @@
 .productActions dd {
   float: left;
   margin-right: 40px;
+}
+
+.productImage {
+  background-color: #ffffff;
+  border-radius: 150px;
+  margin-top: 140px;
+  width: 545px;
+  height: 545px;
 }
