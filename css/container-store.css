@@ -38,3 +38,12 @@
 .description {
   margin-bottom: 25px;
 }
+
+.productActions {
+  margin-top: 100px;
+}
+
+.productActions dd {
+  float: left;
+  margin-right: 40px;
+}
