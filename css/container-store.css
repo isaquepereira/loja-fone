@@ -1,58 +1,9 @@
 .container-store {
   width: 80%;
   background-color: #e24647;
-  padding: 65px 95px 65px;
+  padding: 60px 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.productInfo {
-  float: right;
-  max-width: 550px;
-  color: #ffffff;
-  font-size: 20px;
-  line-height: 24px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-.productInfo a {
-  color: inherit;
-}
-
-.productTitle {
-  margin-top: 140px;
-  margin-bottom: 80px;
-}
-
-.avaliations,
-.shipping {
-  margin-bottom: 25px;
-}
-
-.price {
-  margin-bottom: 70px;
-}
-
-.description {
-  margin-bottom: 25px;
-}
-
-.productActions {
-  margin-top: 100px;
-}
-
-.productActions dd {
-  float: left;
-  margin-right: 40px;
-}
-
-.productImage {
-  background-color: #ffffff;
-  border-radius: 150px;
-  margin-top: 140px;
-  width: 545px;
-  height: 545px;
 }

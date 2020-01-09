@@ -4,43 +4,58 @@
   <meta charset="utf-8" />
   <title>Loja de Fone</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/base.css" />
   <link rel="stylesheet" type="text/css" href="css/container-store.css" />
   <link rel="stylesheet" type="text/css" href="css/header-store.css" />
+  <link rel="stylesheet" type="text/css" href="css/description-product.css" />
+  <link rel="stylesheet" type="text/css" href="css/wrap-product.css" />
+  <link rel="stylesheet" type="text/css" href="css/photo-product.css" />
   <link rel="stylesheet" type="text/css" href="css/button-store.css" />
 </head>
 
 <body>
   <div class="container-store">
     <header class="header-store">
-      <h1 class="title">LOGO</h1>
+      <h1 class="title">Logo</h1>
 
       <nav class="navigation">
         <a class="action" href="#">Produtos</a>
         <a class="action" href="#">Serviços</a>
-        <a class="action last" href="#">Carrinho (10)</a>
+        <a class="action -last" href="#">Carrinho (10)</a>
       </nav>
     </header>
-    <img src="images/fone.png" alt="" class="productImage" />
-    <dl class="productInfo">
-      <dt class="productTitle">Fone top, feliz e caro</dt>
-      <dd class="avaliations">4.0 (97)</dd>
-      <dd class="shipping">Frete C$ 108</dd>
-      <dd class="price">Preço C$ 340</dd>
-      <dd class="description">
-        Fone TOP com um cor feliz que não tem fio. A cor também é algo que
-        impressiona junto com o seu layout modernão! Ele é caro? É! Mas compre
-        que você não vai se arrepender e se você se arrepender pode vender no
-        mercado livre..kkkk
-      </dd>
-      <dd><a href="">Saber mais...</a></dd>
-      <div class="productActions">
-        <dd>
-          <button class="button-store -secondary">Adicionar ao carrinho</button>
+    <figure class="photo-product">
+      <img src="images/fone.png" alt="" />
+    </figure>
+    <section class="wrap-product">
+      <dl class="description-product">
+        <dt class="title">Fone top, feliz e caro</dt>
+        <dd class="item">
+          <img src="images/estrela-cheia.png" alt="" />
+          <img src="images/estrela-cheia.png" alt="" />
+          <img src="images/estrela-cheia.png" alt="" />
+          <img src="images/estrela-cheia.png" alt="" />
+          <img src="images/estrela-vazia.png" alt="" />
         </dd>
-        <dd>
-          <a class="button-store" href="comprar.html">Comprar</a>
+        <dd class="item">4.0 (97)</dd>
+        <dd class="item -info">
+          <strong class="contrast">Frete</strong>C$ 108
         </dd>
-      </div>
-    </dl>
+        <dd class="item -info -last">
+          <strong class="contrast">Preço</strong>C$ 340
+        </dd>
+        <dd class="text">
+          Fone TOP com um cor feliz que não tem fio. A cor também é algo que
+          impressiona junto com o seu layout modernão! Ele é caro? É! Mas compre
+          que você não vai se arrepender e se você se arrepender pode vender no
+          mercado livre..kkkk
+        </dd>
+        <dd class="text">
+          <a class="action" href="#">Saber mais...</a>
+        </dd>
+      </dl>
+    </section>
+    <button class="button-store -secondary">Adicionar ao carrinho</button>
+    <a class="button-store" href="comprar.html">Comprar</a>
   </div>
 </body>

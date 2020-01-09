@@ -21,4 +21,14 @@
   background-color: transparent;
   border: solid 2px;
   border-color: #ffffff;
+  margin-right: 40px;
+}
+
+.button-store > button,
+.button-store > a {
+  background-color: inherit;
+  color: inherit;
+  font-size: inherit;
+  border: none;
+  text-decoration: inherit;
 }
