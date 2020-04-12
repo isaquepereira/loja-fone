@@ -32,6 +32,7 @@
 .description-product > .item.-last {
   margin-bottom: 70px;
 }
+
 .description-product > .item img {
   margin-right: 8px;
 }
@@ -45,6 +46,10 @@
   font-size: 18px;
   margin-bottom: 30px;
   line-height: 30px;
+}
+
+.description-product > .text.-more {
+  margin-bottom: 0;
 }
 
 .description-product .action {
