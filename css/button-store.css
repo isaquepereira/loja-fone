@@ -18,11 +18,25 @@
   border-color: #252c41;
 }
 
+.button-store:hover {
+  background-color: #ffffff;
+  border: solid 2px;
+  border-color: #ffffff;
+  color: #252c41;
+}
+
 .button-store.-secondary {
   background-color: transparent;
   border: solid 2px;
   border-color: #ffffff;
   margin-right: 40px;
+}
+
+.button-store.-secondary:hover {
+  background-color: #ffffff;
+  border: solid 2px;
+  border-color: #ffffff;
+  color: #e24647;
 }
 
 .button-store > button,
