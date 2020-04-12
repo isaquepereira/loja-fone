@@ -6,6 +6,12 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.description-product > .favorite {
+  position: absolute;
+  transform: translateX(-100%);
+  left: -48px;
+}
+
 .description-product > .title {
   font-size: 25px;
   margin-bottom: 50px;
