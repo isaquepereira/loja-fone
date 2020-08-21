@@ -21,11 +21,6 @@
   cursor: pointer;
 }
 
-.description-product > .item.-star img:hover {
-  transform: scale(1.2);
-  transition: all 100ms linear;
-}
-
 .description-product > .item.-heart {
   position: absolute;
   transform: translateX(-100%);
@@ -36,11 +31,19 @@
 }
 
 .description-product > .item.-heart:hover {
-  transform: translateX(-100%) scale(1.2);
+  transform: translateX(-100%);
 }
 
 .description-product > .item.-star + .item {
   margin-left: 7px;
+}
+
+.description-product .icon {
+  transition: all 100ms linear;
+}
+
+.description-product .icon:hover {
+  transform: scale(1.2);
 }
 
 .description-product > .item.-info {
