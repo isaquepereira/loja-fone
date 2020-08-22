@@ -17,43 +17,6 @@
   float: right;
 }
 
-.header-store .action {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  text-decoration: none;
-  color: inherit;
-  margin-right: 60px;
-  float: left;
-}
-
-.header-store .action:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  margin-top: 4px;
-  background-color: #ffffff;
-  transform: scaleX(0) translateZ(0);
-  transform-origin: left;
-  transition: all 200ms linear;
-}
-
-.header-store .action:hover:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 2px;
-  margin-top: 4px;
-  background-color: #ffffff;
-  transform: scaleX(1) translateZ(0);
-  transform-origin: left;
-  transition: all 200ms linear;
-}
-
-.header-store .action.-last {
-  margin-right: 0;
-}
-
 .header-store form {
   width: 50%;
   display: inline-block;
@@ -61,19 +24,50 @@
 }
 
 .header-store [type="search"] {
-  width: 350px;
-  margin: 0 auto;
-  padding: 8px;
-  font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: inherit;
-  border: none;
-  border-bottom: solid 1px #ffffff;
-  border-radius: 0px;
   background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: inherit;
+  font-family: Arial, "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 8px;
+  width: 358px;
+  margin-right: 65px;
+  vertical-align: bottom;
 }
 
 .header-store .busca::placeholder {
   color: #ffffff;
+}
+
+.header-store .action {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 60px;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.header-store .action:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 200ms linear;
+  transform-origin: center left;
+}
+
+.header-store .action:hover:after {
+  transform: scaleX(1);
+}
+
+.header-store .action.-last {
+  margin-right: 0;
 }
